@@ -282,7 +282,7 @@ def virvat():
 			if type(byr) == str:
 				byr_str = '0'
 			else:
-				byr_str = num2words(byr, lang='ru', to = "currency")
+				byr_str = num2words(byr, lang='ru', to = "currency", currency = "RUB")
 				ws1['A19'] = 'Amount in words ( Сумма прописью ) _____'+ byr_str
 				a19 = ws1['A19']
 				a19.font = ft1
@@ -291,7 +291,7 @@ def virvat():
 			if type(usd) == str:
 				usd_str = '0'
 			else:
-				usd_str = num2words(usd, lang='en', to = "currency")
+				usd_str = num2words(usd, lang='en', to = "currency", currency = "USD")
 				ws1['A21'] = '__________________________________'+ usd_str
 				a21 = ws1['A21']
 				a21.font = ft1

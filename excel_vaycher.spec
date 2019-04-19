@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['excel_vaycher.py'],
-             pathex=['C:\\Users\\igor\\Desktop\\inga'],
+             pathex=['C:\\Users\\igor\\Desktop\\GitHub\\REDDY'],
              binaries=[],
              datas=[],
              hiddenimports=[],
@@ -29,4 +29,4 @@ exe = EXE(pyz,
           strip=False,
           upx=True,
           runtime_tmpdir=None,
-          console=False , icon='C:\\Users\\igor\\Desktop\\inga\\icon.ico')
+          console=False , icon='C:\\Users\\igor\\Desktop\\GitHub\\REDDY\\icon.ico')
