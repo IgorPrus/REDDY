@@ -30,7 +30,7 @@ import shutil
 # Модуль чтение Excel файлов
 import xlrd, xlwt
 # Модуль преобразования чисел в слова
-from num2words import num2words
+from numbers_to_words import num2words
 
 
 	
